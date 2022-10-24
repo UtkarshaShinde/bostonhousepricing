@@ -22,6 +22,9 @@ git config --global user.email "utkarshashinde899@gmail.com"
 git add requirements.txt
 
 for all files -> git add . 
+ to remove permissions if add is not working 
+rm .git/COMMIT_EDITMSG
+
 
 for commit 
 
@@ -30,6 +33,8 @@ git commit -m " This commit include requirement.tx and readme file "
 now push the changes to git repo
 
 git push origin main
+
+
 
 postman 
 download 
