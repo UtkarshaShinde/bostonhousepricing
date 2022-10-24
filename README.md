@@ -15,6 +15,10 @@
 
 create a new env 
 
+conda create -p venv python 3.7 -y 
+
+pip install -r requirements.txt
+
 git config --global user.name "utkarshaShinde"
 
 git config --global user.email "utkarshashinde899@gmail.com"
@@ -24,6 +28,9 @@ git add requirements.txt
 for all files -> git add . 
  to remove permissions if add is not working 
 rm .git/COMMIT_EDITMSG
+ or 
+ rm .git/index.lock
+
 
 
 for commit 
@@ -35,13 +42,8 @@ now push the changes to git repo
 git push origin main
 
 
-
-postman 
+further comes postman where we are creating url request and sending data to our predict function in json format throught postman 
 download 
 json 
 
-
-conda create -p venv python 3.7 -y 
-
-pip install -r requirements.txt
 ''''
