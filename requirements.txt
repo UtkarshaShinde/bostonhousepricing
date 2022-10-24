@@ -5,3 +5,5 @@ matplotlib
 pandas 
 numpy
 gunicorn 
+streamlit==0.49.0
+
