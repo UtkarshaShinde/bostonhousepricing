@@ -57,4 +57,7 @@ monitor through logs
 Docker container 
 create .github/workflow folders write yaml file
 go to github add secreate actions add new repo secrets
+
+commit changes to github 
+and see the commit sections all changes commited 
 ''''
