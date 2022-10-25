@@ -46,4 +46,15 @@ further comes postman where we are creating url request and sending data to our 
 download 
 json 
 
+
+Heroku 
+create app
+write procfile
+connect to github 
+deply
+monitor through logs 
+
+Docker container 
+create .github/workflow folders write yaml file
+go to github add secreate actions add new repo secrets
 ''''

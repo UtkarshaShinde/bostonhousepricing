@@ -1,3 +1,5 @@
+import streamlit as st
+
 import json
 import pickle
 from flask import Flask,request,app,jsonify, url_for,render_template
@@ -28,7 +30,7 @@ def predict_api():
 @app.route('/predict',methods=['POST'])
 def predict():
     data=[float(x) for x in request.form.values()]
-    #print(data)
+    #cprint(data)
     final_input=scalar.transform(np.array(data).reshape(1,-1))
     output=regmodel.predict(final_input)[0]
     return render_template("home.html",prediction_text="The House price predicted is {}".format(output))
